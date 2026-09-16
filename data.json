@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-15",
+  "asOf": "2026-09-17",
   "source": "Heartland Onboarding \u2013 Non-Digital Flow Test Cases",
   "sourceUrl": "https://constantinople.atlassian.net/wiki/spaces/CXNPLPREPROJ/pages/2775810251/Heartland+Onboarding+Non-Digital+Flow+Test+Cases",
   "modules": [
@@ -19,13 +19,61 @@
     }
   ],
   "bugs": [
-    { "id": "ONBD-1658", "desc": "IDV flow triggered but customer receives no notification/IDV request", "priority": "Highest", "assignee": "Elijah Eales", "status": "To Do" },
-    { "id": "ONBD-1656", "desc": "Customer age eligibility validation can be bypassed by modifying DOB", "priority": "High", "assignee": "Elijah Eales", "status": "To Do" },
-    { "id": "ONBD-1653", "desc": "Customer timeline not updated despite completed KYC approval and password reset", "priority": "High", "assignee": "Elijah Eales", "status": "To Do" },
-    { "id": "ONBD-1643", "desc": "Unable to add email address to non-digital customer profile from Ops Console", "priority": "High", "assignee": "Pallavi Naramsetty", "status": "In Review" },
-    { "id": "ONBD-1650", "desc": "Duplicate account creation shows generic error instead of clear validation message", "priority": "Medium", "assignee": "Pallavi Naramsetty", "status": "In Review" },
-    { "id": "ONBD-1641", "desc": "Consent and mobile field validation fixes", "priority": "Unprioritised", "assignee": "Pallavi Naramsetty", "status": "To Do" },
-    { "id": "ONBD-1644", "desc": "Ops Console shows \"KYC Approved\" before KYC task completion", "priority": "High", "assignee": "Pallavi Naramsetty", "status": "Done" },
-    { "id": "ONBD-1638", "desc": "Non-digital customer cannot initiate KYC \u2013 no banking entity ID generated", "priority": "Unprioritised", "assignee": "Pallavi Naramsetty", "status": "Done" }
+    {
+      "id": "ONBD-1658",
+      "desc": "IDV flow triggered but customer receives no notification/IDV request",
+      "priority": "Highest",
+      "assignee": "Elijah Eales",
+      "status": "To Do"
+    },
+    {
+      "id": "ONBD-1656",
+      "desc": "Customer age eligibility validation can be bypassed by modifying DOB",
+      "priority": "High",
+      "assignee": "Elijah Eales",
+      "status": "To Do"
+    },
+    {
+      "id": "ONBD-1653",
+      "desc": "Customer timeline not updated despite completed KYC approval and password reset",
+      "priority": "High",
+      "assignee": "Elijah Eales",
+      "status": "To Do"
+    },
+    {
+      "id": "ONBD-1643",
+      "desc": "Unable to add email address to non-digital customer profile from Ops Console",
+      "priority": "High",
+      "assignee": "Pallavi Naramsetty",
+      "status": "In Review"
+    },
+    {
+      "id": "ONBD-1650",
+      "desc": "Duplicate account creation shows generic error instead of clear validation message",
+      "priority": "Medium",
+      "assignee": "Pallavi Naramsetty",
+      "status": "In Review"
+    },
+    {
+      "id": "ONBD-1641",
+      "desc": "Consent and mobile field validation fixes",
+      "priority": "Unprioritised",
+      "assignee": "Pallavi Naramsetty",
+      "status": "To Do"
+    },
+    {
+      "id": "ONBD-1644",
+      "desc": "Ops Console shows \"KYC Approved\" before KYC task completion",
+      "priority": "High",
+      "assignee": "Pallavi Naramsetty",
+      "status": "Done"
+    },
+    {
+      "id": "ONBD-1638",
+      "desc": "Non-digital customer cannot initiate KYC \u2013 no banking entity ID generated",
+      "priority": "Unprioritised",
+      "assignee": "Pallavi Naramsetty",
+      "status": "Done"
+    }
   ]
 }
