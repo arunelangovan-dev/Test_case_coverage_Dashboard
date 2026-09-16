@@ -1,7 +1,7 @@
 {
   "asOf": "2026-09-17",
-  "source": "Heartland Onboarding – Non-Digital Flow Test Cases",
-  "sourceUrl": "https://constantinople.atlassian.net/wiki/spaces/CXNPLPREPROJ/pages/2775810251/Heartland+Onboarding+Non-Digital+Flow+Test+Cases",
+  "source": "Heartland Onboarding – Non-Digital Flow (Test Cases + Journey Coverage J1–J12, UAT 2.65)",
+  "sourceUrl": "https://constantinople.atlassian.net/wiki/spaces/CXNPLPREPROJ/pages/2764669001/Non-Digital+Onboarding+Flows+Testing",
   "modules": [
     {
       "name": "Profile Creation",
@@ -16,6 +16,13 @@
       "fail": 0,
       "na": 0,
       "notRun": 0
+    },
+    {
+      "name": "Journey Coverage (J1–J12)",
+      "pass": 9,
+      "fail": 1,
+      "na": 1,
+      "notRun": 1
     }
   ],
   "bugs": [
@@ -74,6 +81,13 @@
       "priority": "Unprioritised",
       "assignee": "Pallavi Naramsetty",
       "status": "Done"
+    },
+    {
+      "id": "ONBD-1673",
+      "desc": "No Onboarding Screening Case raised in Ops Console when customer is blocklisted in FrankieOne",
+      "priority": "Highest",
+      "assignee": "Pallavi Naramsetty",
+      "status": "To Do"
     }
   ]
 }
