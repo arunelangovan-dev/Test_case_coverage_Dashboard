@@ -1,7 +1,7 @@
 {
   "asOf": "2026-09-17",
-  "source": "Heartland Onboarding – Non-Digital Flow (Test Cases + Journey Coverage J1–J12, UAT 2.65)",
-  "sourceUrl": "https://constantinople.atlassian.net/wiki/spaces/CXNPLPREPROJ/pages/2764669001/Non-Digital+Onboarding+Flows+Testing",
+  "source": "Heartland Onboarding (Test Cases + Journeys J1–J12) + Tyro Migration DR6 Business Scenarios",
+  "sourceUrl": "https://constantinople.atlassian.net/wiki/spaces/CXNPLPREPROJ/pages/2578124400/DR6+Functional+Account+Check+for+Authorised+Users+-+Business+Scenarios+-+DR6",
   "modules": [
     {
       "name": "Profile Creation",
@@ -23,6 +23,34 @@
       "fail": 1,
       "na": 1,
       "notRun": 1
+    },
+    {
+      "name": "DR6: Everyday Saver",
+      "pass": 29,
+      "fail": 2,
+      "na": 1,
+      "notRun": 0
+    },
+    {
+      "name": "DR6: 2 to Sign - Business Pair",
+      "pass": 29,
+      "fail": 2,
+      "na": 1,
+      "notRun": 0
+    },
+    {
+      "name": "DR6: SMSF Joint - Retail Express Saver",
+      "pass": 6,
+      "fail": 1,
+      "na": 1,
+      "notRun": 0
+    },
+    {
+      "name": "DR6: SMSF Joint - Wholesale TD (6mo)",
+      "pass": 0,
+      "fail": 1,
+      "na": 1,
+      "notRun": 3
     }
   ],
   "bugs": [
@@ -88,6 +116,34 @@
       "priority": "Highest",
       "assignee": "Pallavi Naramsetty",
       "status": "To Do"
+    },
+    {
+      "id": "TXB-1848",
+      "desc": "Transactions not shown in PDF statement (alignment issues); available in CSV export",
+      "priority": "High",
+      "assignee": "Rohit Khandelwal",
+      "status": "Requested"
+    },
+    {
+      "id": "TXB-1861",
+      "desc": "Wholesale Term Deposit account not displayed under Accounts tab",
+      "priority": "High",
+      "assignee": "Rohit Khandelwal",
+      "status": "In Progress"
+    },
+    {
+      "id": "TXB-1862",
+      "desc": "Incorrect product type shown - account displayed as Everyday Transaction instead of SMSF Joint Retail Express Saver",
+      "priority": "Moderate",
+      "assignee": "Samuel Day",
+      "status": "Requested"
+    },
+    {
+      "id": "TXB-1863",
+      "desc": "Accounts not displayed under Settings > Payments > Payment Approvals",
+      "priority": "High",
+      "assignee": "Rohit Khandelwal",
+      "status": "Requested"
     }
   ]
 }
